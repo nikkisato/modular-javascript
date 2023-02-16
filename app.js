@@ -1,8 +1,9 @@
 // First Function
 
-import { message } from "./function.js";
+// uncomment for #3 to work
+// import { message } from "./function.js";
 
-export let user = {
+const user = {
   name: "Nikki",
   age: 25,
 };
@@ -14,4 +15,5 @@ export function username() {
   container.append(message);
 }
 
+//4
 // message();

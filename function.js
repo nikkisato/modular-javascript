@@ -9,8 +9,23 @@ export function message() {
   try {
     username();
   } catch {
-    console.error("Need to provide a message");
+    console.error("Need to provide a user object");
   }
 }
 
+// 3
 message();
+
+// --------------------------------
+//   try {
+//   username();
+//   } catch {
+//     console.error("Need to provide a message");
+//   }
+// --------------------------------
+// ask chris if this is okay
+// if (username) {
+//     username()
+//   } else {
+//     console.error("need to provide a user object")
+//   }
