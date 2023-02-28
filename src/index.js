@@ -1,4 +1,4 @@
-import { camelCase } from "lodash";
+const camelCase = require("lodash").camelCase;
 
 import "./style.scss";
 
